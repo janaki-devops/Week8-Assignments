@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-09T10:52:57 GMT" name="Default suite" finished-at="2025-12-09T10:53:52 GMT" duration-ms="55306">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:run.RunnerCucumber@2dfaea86]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-12-09T10:52:57 GMT" name="Default test" finished-at="2025-12-09T10:53:52 GMT" duration-ms="55306">
+      <class name="run.RunnerCucumber">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:run.RunnerCucumber@2dfaea86]" started-at="2025-12-09T10:52:57 GMT" name="setUpClass" finished-at="2025-12-09T10:52:58 GMT" duration-ms="682" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@546ed2a0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="precondn()[pri:0, instance:run.RunnerCucumber@2dfaea86]" started-at="2025-12-09T10:52:58 GMT" name="precondn" finished-at="2025-12-09T10:53:05 GMT" duration-ms="7489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondn -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:run.RunnerCucumber@2dfaea86]" started-at="2025-12-09T10:53:05 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-09T10:53:16 GMT" duration-ms="10679" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["create lead with multiple data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["createLead functionality for Leaftaps application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="postCondn()[pri:0, instance:run.RunnerCucumber@2dfaea86]" started-at="2025-12-09T10:53:16 GMT" name="postCondn" finished-at="2025-12-09T10:53:16 GMT" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondn -->
+        <test-method is-config="true" signature="precondn()[pri:0, instance:run.RunnerCucumber@2dfaea86]" started-at="2025-12-09T10:53:16 GMT" name="precondn" finished-at="2025-12-09T10:53:22 GMT" duration-ms="5554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondn -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:run.RunnerCucumber@2dfaea86]" started-at="2025-12-09T10:53:22 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-09T10:53:32 GMT" duration-ms="10838" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["create lead with multiple data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["createLead functionality for Leaftaps application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="postCondn()[pri:0, instance:run.RunnerCucumber@2dfaea86]" started-at="2025-12-09T10:53:32 GMT" name="postCondn" finished-at="2025-12-09T10:53:33 GMT" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondn -->
+        <test-method is-config="true" signature="precondn()[pri:0, instance:run.RunnerCucumber@2dfaea86]" started-at="2025-12-09T10:53:33 GMT" name="precondn" finished-at="2025-12-09T10:53:38 GMT" duration-ms="5685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondn -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:run.RunnerCucumber@2dfaea86]" started-at="2025-12-09T10:53:38 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-09T10:53:51 GMT" duration-ms="12440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["create lead with multiple data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["createLead functionality for Leaftaps application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="postCondn()[pri:0, instance:run.RunnerCucumber@2dfaea86]" started-at="2025-12-09T10:53:51 GMT" name="postCondn" finished-at="2025-12-09T10:53:51 GMT" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondn -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:run.RunnerCucumber@2dfaea86]" started-at="2025-12-09T10:53:51 GMT" name="tearDownClass" finished-at="2025-12-09T10:53:52 GMT" duration-ms="1327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- run.RunnerCucumber -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
